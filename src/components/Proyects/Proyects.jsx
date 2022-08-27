@@ -61,7 +61,7 @@ const Proyects = () => {
           <a href="https://vermillion-pixie-451b40.netlify.app/" target="_blank" rel="noreferrer">
             <img src={Proyecto5} alt="" className="p-img" />
           </a>
-          <h5>Proyecto 5- CRUD</h5>
+          <h5>Proyecto 5- Ecommerce</h5>
           <p style={{fontSize:"11px"}}>Descripción: En este proyecto se creó un Ecommerce utilizando React - Bootstrap agregando CRUD con MongoDB</p>
         </div>
       </div>
