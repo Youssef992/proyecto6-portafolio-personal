@@ -2,6 +2,8 @@ import "./contact.css";
 import Phone from "../../img/phone.png";
 import Email from "../../img/email.png";
 import Address from "../../img/address.png";
+import GitHub from "../../img/github.png";
+import Facebook from "../../img/facebook.png";
 
 const Contact = () => {
   return (
@@ -23,6 +25,18 @@ const Contact = () => {
               <img className="c-icon" src={Address} alt="" />
               Cda. Melocotones 20 D, Col. Jardines de San Mateo, C.P 53240
             </div>
+            <div className="c-info-item">
+              <a href="https://github.com/Youssef992/" target="_blank" rel="noreferrer">
+                <img src={GitHub} alt="" className="c-icon" />
+              </a>
+              Git Hub 
+            </div>
+            <div className="c-info-item">
+              <a href="https://www.facebook.com/profile.php?id=100011195627791" target="_blank" rel="noreferrer">
+                <img src={Facebook} alt="" className="c-icon" />
+              </a>
+             Facebook 
+            </div>
           </div>
         </div>
         <div className="c-right">
@@ -30,9 +44,9 @@ const Contact = () => {
             <b>Tienes alguna duda?</b> Escríbeme. Siempre estaré disponible para atenderte.
           </p>
           <form >
-            <input  type="text" placeholder="Nombre" name="user_name" />
-            <input  type="text" placeholder="Asunto" name="user_subject" />
-            <input  type="text" placeholder="Email" name="user_email" />
+            <input type="text" placeholder="Nombre" name="user_name" />
+            <input type="text" placeholder="Asunto" name="user_subject" />
+            <input type="text" placeholder="Email" name="user_email" />
             <textarea rows="5" placeholder="Contexto" name="message" />
             <button>Enviar</button>
           </form>
